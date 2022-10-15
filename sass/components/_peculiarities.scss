@@ -1,0 +1,31 @@
+.sec-padding-bot-0 {
+  padding-bottom: 0;
+}
+.peculiarities-list {
+  display: flex;
+}
+.peculiarities-block {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: var(--background-color-team);
+}
+.peculiarities-item + .peculiarities-item {
+  padding-left: 30px;
+}
+.peculiarities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.peculiarities-description {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
