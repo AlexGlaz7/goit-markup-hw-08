@@ -12,7 +12,7 @@
 }
 
 .container {
-  width: 300px;
+  min-width: 300px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -254,7 +254,7 @@ ul {
   border: none;
   border-radius: 50%;
   outline: none;
-  margin-left: 68px;
+  margin-left: 225px;
 }
 
 @media screen and (min-width: 480px) {
@@ -274,7 +274,7 @@ ul {
 
 .menu-toggle.js-close-menu {
   position: absolute;
-  top: 21px;
+  top: 1px;
   right: 25px;
   border: none;
   cursor: pointer;
@@ -659,6 +659,7 @@ ul {
 @media screen and (min-width: 320px) {
   .workers-item {
     margin-top: 30px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
