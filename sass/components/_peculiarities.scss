@@ -35,11 +35,6 @@
   background-color: var(--background-color-team);
 }
 
-@media screen and (min-width: 1200px) {
-  .peculiarities-item + .peculiarities-item {
-    padding-left: 30px;
-  }
-}
 .peculiarities-title {
   font-weight: 700;
   font-size: 14px;

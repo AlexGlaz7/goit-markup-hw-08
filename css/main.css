@@ -12,12 +12,17 @@
 }
 
 .container {
-  width: 480px;
+  min-width: 320px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -29,7 +34,7 @@
   }
 }
 .section {
-  padding: 30px 0;
+  padding: 60px 0;
 }
 
 @media screen and (min-width: 1200px) {
@@ -231,8 +236,8 @@ ul {
 }
 
 .menu-toggle {
-  min-height: 40px;
-  min-width: 40px;
+  height: 40px;
+  width: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -286,8 +291,8 @@ ul {
   }
 }
 .menu-container.is-open {
-  -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 
 .menu-container .menu-toggle {
@@ -511,11 +516,6 @@ ul {
   background-color: var(--background-color-team);
 }
 
-@media screen and (min-width: 1200px) {
-  .peculiarities-item + .peculiarities-item {
-    padding-left: 30px;
-  }
-}
 .peculiarities-title {
   font-weight: 700;
   font-size: 14px;
@@ -642,7 +642,7 @@ ul {
     gap: 30px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .workers-item {
     margin-top: 30px;
   }
@@ -994,7 +994,7 @@ ul {
 }
 .footer-email-input {
   padding-left: 15px;
-  width: 450px;
+  width: 290px;
   height: 50px;
   font-weight: 400;
   font-size: 16px;
@@ -1009,6 +1009,11 @@ ul {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 480px) {
+  .footer-email-input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-email-input {
     width: 358px;
